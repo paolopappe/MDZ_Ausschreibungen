@@ -42,9 +42,9 @@ Geben Sie in Git Bash nacheinander die folgenden Befehle ein (jeweils danach mit
 
 ```bash
 
-git clone https://github.com/paolopappe/MDZ_Ausschreibung.git
+git clone https://github.com/paolopappe/MDZ_Ausschreibungen.git
 
-cd MDZ_Ausschreibung
+cd MDZ_Ausschreibungen
 ```
 
 3. Den API-Key, den Sie zuvor auf der OpenAI-Platform generiert haben, müssen Sie nun in der _env.template_ - Datei einsetzen. Der API-Key kann nur 1mal erstellt und kopiert werden, ansonsten müssen sie einen neuen Key erstellen.
