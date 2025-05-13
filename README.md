@@ -61,7 +61,7 @@ Warten Sie nun ein paar Minuten.
 5. Nun können Sie das Suchtool mit folgendem Befehl starten:
 
 ```bash
-docker run -p 8501:8501 --env-file .env --volume prusseit_reiss:/ausschreibungen_storage prusseit_reiss_suchtool:latest
+docker run -p 8501:8501 --env-file .env.template --volume prusseit_reiss:/ausschreibungen_storage prusseit_reiss_suchtool:latest
 ```
 
 6. Nachdem Sie den letzten Command ausgeführt haben, können Sie das Suchtool auf Ihrem Endgerät verwenden. Um darauf zuzugreifen, öffnen Sie einen beliebigen Browser und geben Sie folgendes in die Adressleiste ein:
